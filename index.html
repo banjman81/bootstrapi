@@ -19,7 +19,7 @@
         </h1>
         <div class="api-content">
             <div class="card">
-                <img class="card-img-top dog-display" src="dog.png" alt="Card image cap">
+                <img class="card-img-top dog-display" src="img/dog.png" alt="Card image cap">
                 <div class="card-body"><button type="button" class="btn btn-primary doggo-button"> Click for random doggo</button></div>
             </div>
             
@@ -33,15 +33,44 @@
         <div class="api-content">
             <div class="card">
                 <div class="card-img-top">
-                    <img class="card-img-top weather-display" src="weather.png" alt="Card image cap">
-                    <h1 class="city">tempreture</h1>
-                    <h2 class="temp"></h2>
+                    <img class="card-img-top weather-display" src="img/weather.png" alt="Card image cap">
+                    <div class="card hidden main-height">
+                        <div class="card-body main-weather">
+                            <img src="" alt="forecast" class="weather-image">
+                            <p class="card-text desc">windspeed</p>
+                            <p class="card-title temp"></p>
+                            <p class="card-text wind"></p>
+                        </div>
+                    </div>
+                    <div class="card-group hidden">
+                        <div class="card card-height">
+                            <div class="card-body weather-bg">
+                                <p class="card-title">Day 1</p>
+                                <p class="card-title temp1"></p>
+                                <p class="card-text wind2"></p>
+                            </div>
+                        </div>
+                        <div class="card card-height">
+                            <div class="card-body weather-bg">
+                                <p class="card-title">Day 2</p>
+                                <p class="card-title temp2"></p>
+                                <p class="card-text wind2"></p>
+                            </div>
+                        </div>
+                        <div class="card card-height">
+                            <div class="card-body weather-bg">
+                                <p class="card-title">Day 3</p>
+                                <p class="card-title temp3"></p>
+                                <p class="card-text wind3"></p>
+                            </div>
+                        </div>
+                    </div>    
                 </div>
                 <div class="card-body">
-                    <div class="search-bar">
+                    <!-- <div class="search-bar">
                         <input type="text" class="form-control" placeholder="Enter a city">
                         <button type='button' class="btn btn-primary search">Search</button>
-                    </div>
+                    </div> -->
                     <button type="button" class="btn btn-primary random-weather-button"> Click for weather in random city</button>
                 </div>
             </div>
