@@ -18,7 +18,11 @@
             Part 1: Random Dog Generator
         </h1>
         <div class="api-content">
-            [INSERT RANDOM DOG GENERATOR HERE]
+            <div class="card">
+                <img class="card-img-top dog-display" src="dog.png" alt="Card image cap">
+                <div class="card-body"><button type="button" class="btn btn-primary doggo-button"> Click for random doggo</button></div>
+            </div>
+            
         </div>
     </div>
 
@@ -27,10 +31,23 @@
             Part 2: Weather App
         </h1>
         <div class="api-content">
-            [INSERT WEATHER APP HERE]
+            <div class="card">
+                <div class="card-img-top">
+                    <img class="card-img-top weather-display" src="weather.png" alt="Card image cap">
+                    <h1 class="city">tempreture</h1>
+                    <h2 class="temp"></h2>
+                </div>
+                <div class="card-body">
+                    <div class="search-bar">
+                        <input type="text" class="form-control" placeholder="Enter a city">
+                        <button type='button' class="btn btn-primary search">Search</button>
+                    </div>
+                    <button type="button" class="btn btn-primary random-weather-button"> Click for weather in random city</button>
+                </div>
+            </div>
         </div>
     </div>
-
+    <script src="jquery-3.6.0.min.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
